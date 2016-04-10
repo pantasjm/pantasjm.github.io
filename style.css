@@ -1,0 +1,215 @@
+
+img.conejo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+
+.navbar-brand {
+    
+}
+
+.portada {
+    text-align: center;
+    background-image: url(images/portada.JPG);
+    background-size: cover;
+    background-position: 50% 60%;
+    position: relative;
+}
+
+.imagen-portada {
+    
+}
+
+.texto-portada {
+    font-size: 70px;
+    font-weight: bold;
+    color:crimson;
+    text-shadow: -1px 0 darkred, 0 1px darkred, 1px 0 darkred, 0 -1px darkred;
+}
+
+.titulo {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.texto-subtitulo {
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: -1px 0 darkred, 0 1px darkred, 1px 0 darkred, 0 -1px darkred;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.about-me-image {
+    text-align: center
+}
+
+.rostro {
+    height: 220px;
+    width: 280px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-bottom: 15px;
+}
+
+.about-me {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.about-me-text {
+    text-align: center;
+}
+
+body {
+    padding-top: 50px;
+}
+
+h4 {
+    line-height: 1.4em;
+}
+
+.data-project-text {
+    text-align: center;
+}
+
+.data-projects {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.data-projects-back {
+    background-color: crimson;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.data-project-selection {
+    
+}
+
+.dashboard {
+    height: 100px;
+}
+
+.finance-and-more {
+    text-align: center;
+    margin:0 auto;
+}
+
+.finance-and-more-contenedor {
+    margin: 55px 0;
+}
+
+.articulo {
+    margin: 0 auto;
+}
+
+.icono {
+    height: 80px;
+    margin: 10px;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-back {
+    background-color: crimson;
+    padding: 60px 0;
+}
+
+.question-contenedor {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.secret {
+    text-align: right
+}
+
+.secret-text {
+    display: inline;
+}
+
+.secret-reference {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.contact-list {
+    display: inline;
+    padding: 0px 60px 0px 60px;
+}
+
+.package {
+    
+}
+
+@media (max-width: 1000px) {
+    .contact-list {
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .secret-text {
+        display: block;
+    }
+    
+    .texto-portada {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 800px){
+    .navigation{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .contact-list {
+        display: block;
+        padding: 0px;
+    }
+    
+    .texto-portada {
+        font-size: 30px;
+    }
+    
+    .texto-subtitulo {
+        font-size: 15px;
+    }
+}
+
+.anchor {
+    color:inherit;
+}
+
+.anchor:hover {
+    color: inherit;
+    text-decoration: none;
+}
+

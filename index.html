@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+    <title>A little bit about me</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!--JQuery-->
+    
+    <link rel="stylesheet" href="js/jquery-ui.css">
+    <link rel="stylesheet" href="js/jquery-ui.min.css">
+    <script src="js/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    
+    <script>
+        $(document).on('ready',function() {
+            $( "#accordion" ).accordion();
+        });
+    </script>
+    
+</head>
+<body>
+    
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand conejo" href="#anchor1"><img class="conejo" src="images/Logotipo.png"></img></a>
+        </div>
+        <div>
+          <ul class="navigation nav navbar-nav navbar-right">
+                <li><a href="#anchor2">About Me</a></li>
+                <li><a href="index.html#anchor3">Data Projects</a></li> 
+                <li><a href="index.html#anchor4">Finance and More</a></li>
+                <li><a href="index.html#anchor5">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <a class="anchor" name="anchor1">
+        <div class="portada">
+            <div class="titulo container">
+                <div class="texto-portada">Jose Miguel Panta Sanchez</div>
+                <div class="texto-subtitulo">A little bit about me...</div>
+            </div>
+        </div>
+    </a>
+        
+    <a class="anchor" name="anchor2">
+        <div>
+            <div class="about-me container row">
+                <div class="about-me-image col-md-6">
+                    <img class="rostro" src="images/rostro.png"></img>
+                </div>
+                <div class="about-me-text col-md-6">
+                    <div class="texto">
+                        <h1>About Me...</h1>
+                        <h4>I'm a creative entrepreneur, who likes to use technology as a way to solve problems. I have a BSc. degree in Economy from <a href="www.up.edu.pe">Pacifico University</a> in Perú, and I'm really interested in web development and data science.</h4>
+                        <h4>In my free time I like to read <span style="font-style: italic">"techno-thriller"</span> books (one of my favourites is Jurassic Park) and drawing comics.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+  
+        <div class="data-projects-back" name=anchor3>
+            <div class="data-projects container row">
+                <a class="anchor" name="anchor3">
+                    <div class="data-project-text col-md-6">
+                        <div class="texto-blanco">
+                            <h1>My Data Projects...</h1>
+                            <h4>As a business and data analyst, I've worked a lot with R and it's library <span style="font-style: italic">"Shiny"</span> for developing web applications. My last researches were focused on marketing, more specifically, finding the trade area of some convenience store using demographic information.</h4>
+                        </div>
+                    </div>
+                </a>
+                <div class="data-project-selection col-md-6">
+                    <div class="texto-blanco">
+                        <h2>Want to see what I've working on?</h2>
+                        <div id="accordion">
+                            <h3>BI Information Dashboard</h3>
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                    A quick dashboard for viewing the location of our stores and other useful information about it (rent to be payed, socioeconomic levels, important dates, etc.)
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <img class="dashboard" src="images/BI%20Dashboard.png">
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <h3>Trade area analysis</h3>
+                            <div>
+                                <p>
+                                    In this project, I was looking to give an answer to the question, where is a good place to establish a convenience store? The result was the application of the <a class="subrayado" href="http://www.directionsmag.com/entry/retail-trade-area-analysis-using-the-huff-model/123411">Huff's model</a> for determine the sales probability around a potential store. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    <a class="anchor" name="anchor4">
+        <div class="finance-and-more container" name=anchor4>
+            <div class="finance-and-more-contenedor">
+                <div class="row">
+                    <h1>Finance and More</h1>
+                    <h3>Here are a set of articles I've found interesting about finance, marketing and data science.</h3>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <table class="articulo">
+                            <tr><h4>A useful guide into the CFA program</h4></tr>
+                            <tr><a href="http://www.investopedia.com/exam-guide/cfa-level-1/quantitative-methods/default.asp?header_alt=false"><img class="icono" src="images/cfa.gif"></a></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table class="articulo">
+                            <tr><h4>The importance of location advantage</h4></tr>
+                            <tr><a href="http://www.directionsmag.com/webinars/directions-onpoint-location-intelligence-with-galigeo/264479"><img class="icono" src="images/directions.png"></a></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <table class="articulo">
+                            <tr><h4>Hal Varian's Big Data</h4></tr>
+                            <tr><a href="http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf"><img class="icono" src="images/data-big-data.jpg"></a> </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <a class="anchor" name="anchor5">
+        <div class="contact-back" name=anchor5>
+            <div class="contact texto-blanco container">
+                <div class="row">
+                    <h1>Let's keep in contact</h1>
+                </div>
+                <br>
+                <br>
+                <div class="iconos-contacto row">
+                    <ul>
+                        <li class="contact-list"><a href="https://github.com/pantasjm"><img class="icono" src="images/github.svg"></a></li>
+                        <li class="contact-list"><a href="https://www.facebook.com/jmpantasanchez"><img class="icono" src="images/facebook.png"></a></li>
+                        <li class="contact-list"><a href="mailto:pantasjm@gmail.com"><img class="icono" src="images/email.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <div class="question">
+        <div class="question-contenedor container">
+            <div class="package">
+                <img class="secret-icon icono" src="images/secret.png">
+                <h3 class="secret-text"><a class="secret-reference" href="www/hello%20web%20page.pdf">Do you want to know how this page was designed?</a></h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
